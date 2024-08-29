@@ -1,5 +1,6 @@
 ## 传奇引擎地图筛选软件使用方法
 把 传奇引擎地图筛选.exe 放在 MirServer 目录里运行
+切记,不要给这个exe重命名!
 ![alt text](image.png)
 运行后,后等待筛选
 ![alt text](image-1.png)
