@@ -1,8 +1,16 @@
 import re  
 import shutil  
 import os  
+import sys
+
+if hasattr(sys, 'frozen'):
+    File = sys.executable
+elif __file__:
+    File = __file__
+print("sys获取路径方法:", File)
 # 获取当前运行脚本的目录  
-run_path = os.path.dirname(os.path.abspath(__file__))  
+run_path = File.replace("\\传奇引擎地图筛选.exe", "") 
+#run_path = os.path.dirname(os.path.abspath(__file__))  
 # 获取用户输入的文件路径  
 file_path =  run_path +"\\Mir200\\Envir\\MapInfo.txt"
 print("当前运行脚本的目录是：", file_path)
