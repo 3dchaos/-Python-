@@ -1,9 +1,11 @@
 import re  
 import shutil  
 import os  
+# 获取当前运行脚本的目录  
+run_path = os.path.dirname(os.path.abspath(__file__))  
 # 获取用户输入的文件路径  
-file_path = input("请输入\"MapInfo.txt\"路径: ")  
-  
+file_path =  run_path +"\\Mir200\\Envir\\MapInfo.txt"
+print("当前运行脚本的目录是：", file_path)
 try:  
     with open(file_path, 'r') as file:  # 假设文件是UTF-8编码，根据实际情况调整  
         content = file.read()  
@@ -24,7 +26,7 @@ except FileNotFoundError:
 except Exception as e:  
     print(f"读取文件或处理文本时发生错误：{e}")
 # 提问并等待用户输入  
-MapPath = input("此处输入map文件夹路径: ")  
+MapPath = run_path +"\\Mir200\\Map"
 # 检查是否以"\"结尾  
 if not MapPath.endswith("\\"):  
     # 如果不是，就加上"\"  
