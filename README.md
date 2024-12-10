@@ -1,3 +1,12 @@
+## 配置文件一键格式化软件使用方法
+打开软件
+![image](https://github.com/user-attachments/assets/fbfe86af-996d-49e6-aafa-28759f7f597e)
+输入文件地址：如D:\MirServer\Mir200\Envir\MonGen.txt
+也可以直接拖入窗口
+![image](https://github.com/user-attachments/assets/65fc6294-cc7f-4b5f-a2e6-68a234d3309c)
+回车，窗口消失，文本一键被格式化。且把原来的文本备份
+![image](https://github.com/user-attachments/assets/1c094c46-78ad-4e06-b6b0-0bb0f29ef1d3)
+
 ## 传奇引擎地图筛选软件使用方法
 把 传奇引擎地图筛选.exe 放在 MirServer 目录里运行
 切记,不要给这个exe重命名!
